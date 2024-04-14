@@ -1,0 +1,211 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat";
+}
+a {
+  text-decoration: none;  
+  color: inherit;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    background: #282828;
+    color: #fff;
+    padding: 6px 0;
+}
+.nav__burger {
+    border: none;
+    outline: none;
+    background: #282828;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    display: none;
+}
+.nav__container {
+    /* display: flex; */
+    align-items: center;
+}
+.logo {
+    width: 100px;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    
+}
+.list {
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    
+    
+}
+.icons {
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+    margin-left: auto;
+}
+.header {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.header__content {
+    flex-grow: 1;
+    background: url(../img/Header.jpg) no-repeat center / cover;
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.header__title {
+    font-size: 100px;
+    line-height: 75px;
+    font-family: "ProstoOne";
+    margin-bottom: 38px;
+}
+.header__go {
+    background: #fff;
+    color: #171718;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 13px 14px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 11px;
+}
+.main {
+    background: #151515;
+    padding-top: 30px;
+}
+.zoom {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.zoom__desc {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+.keys {
+    display: flex;
+    gap: 87px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.keys__desc {
+    font-size: 22px;
+}
+
+.poods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    gap: 13px;
+    font-weight: 700;
+    margin-bottom: 79px;
+}
+.poods__desc {
+    text-align: right;
+    min-width: 333px;
+    width: 100%;
+}
+
+.poods__lin {
+    min-width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+}
+.poods__desc2 {
+    min-width: 335px;
+    width: 100%;
+}
+.card__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 55px;
+    
+}
+.card__iphone {
+    background: #fff;
+    text-align: center;
+    max-width: 255px;
+    width: 100%;
+    border-radius: 6px;
+    padding-bottom: 15px;
+}
+.card__title {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card__img {
+    padding-bottom: 10px;
+}
+.card__desc {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.card__link {
+    background: #151515;
+    font-weight: 700;
+    color: #fff;
+    padding: 7px 57px;
+
+}
+.footer {
+    box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+}
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo {
+    padding: 81px 0;
+}
+.footer__list {
+    display: flex;
+    gap: 30px;
+    padding: 96px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer__icons-img {
+    padding-left: 29px;
+    width: 70px;
+    height: 55px;
+}
